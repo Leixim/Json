@@ -1,0 +1,59 @@
+public class Person {
+
+    private int id;
+
+    private String firstNane;
+
+    private String lastName;
+
+    private int age;
+
+    public Person(int id, String firstNane, String lastName, int age) {
+        this.id = id;
+        this.firstNane = firstNane;
+        this.lastName = lastName;
+        this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getFirstNane() {
+        return firstNane;
+    }
+
+    public void setFirstNane(String firstNane) {
+        this.firstNane = firstNane;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", firstNane='" + firstNane + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                '}';
+    }
+}
